@@ -161,7 +161,7 @@
             </div>  
     *}        
 
-      <!-- MAIN HEADER -->      
+      <!-- MAIN HEADER    
             <section class="main-header navbar-background-clr natix-host-collapse pt-sm-3 pb-sm-3 pt-2 pb-2" id="main-header">
                 <div class="container pl-xl-0 pr-xl-0 pl-lg-0 pr-lg-0 pl-md-0 pr-md-0 pl-sm-0 pr-sm-0 pl-0 pr-0">
                     <nav class="navbar navbar-expand-lg navbar-light ">
@@ -238,7 +238,7 @@
                 </div>
             </div>
         </section>
-    </header>
+    </header> -->  
 
 
 
