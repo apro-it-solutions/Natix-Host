@@ -104,7 +104,7 @@
     <div class="container">
     <a class="navbar-brand" href="https://www.designingmedia.com/html/Natix-Host/home.html">
                         <figure class="navbar-logo">
-                        <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/assets/images/logo.png" alt="">
+                        <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/assets/images/logo.svg" alt="">
                         </figure>
     </a>
     <div class="ml-auto d-flex">
