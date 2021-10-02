@@ -44,7 +44,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="banner-text">
-                    <h1 class="text-white">SHARED HOSTING</h1>
+                    <h1 class="text-white">WORDPRESS HOSTING</h1>
                     <p class="text-white">High performance dedicated servers with cloud flexibility and scalability.</p>
                     </div>
                     <div class="banner-img">
