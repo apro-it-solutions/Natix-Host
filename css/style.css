@@ -1,0 +1,910 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+
+    /*-------- Default Items ------------ */
+    
+     :root {
+        --global--color-darkblue: #171a24;
+        --global--color-blue: #1e222f;
+        --global--color-grey: #bcbcbc;
+        --global--color-yellow: #ffda68;
+        --global--color-lightpink: #cb6686;
+        --global--color-white: #ffffff;
+        --global--color-pink: #ff687d;
+        --global--color-lightblack: #11141b;
+        --global--color-purple: #745984;
+        --global--color-light: #f8f8f8;
+        --global--color-lightgrey: #808080;
+        --global--color-black: #181b22;
+    }
+
+
+
+.topbar.variation-2 {
+    background: var(--global--color-purple) !important;
+    color: var(--global--color-white) !important;
+}
+.topbar.variation-2 .login-notification {
+   padding-left: 0px;
+}
+.topbar.variation-2 .switch-btn {
+    padding-right: 0px;
+}
+.background-pink {
+    background: var(--global--color-pink);
+}
+.background-pink .dropdown-menu li a{
+    font-size: 15px !important;
+    line-height: 20px !important;
+}
+.navbar-background-clr {
+    background: var(--global--color-darkblue);
+}
+.navbar-nav > li:last-child {
+    margin-left: 0px;
+}
+.logo-background {
+    background: var(--global--color-blue);
+}
+.logo-background .navbar-brand {
+    float: left;
+}
+.natix-host-cart .btn{
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    border: 1px solid #e8eaf1;
+    position: relative;
+    z-index: 1;
+    overflow: visible;
+    color: var(--global--color-white);
+}
+.natix-host-form-control {
+    background: transparent;
+    color: var(--global--color-white);
+    border-radius: 100px;
+    border: 1px solid #353944;
+    padding: 20px;
+    display: inline;
+    flex: inherit !important;
+    width: 54% !important;
+    font-size: 14px;
+}
+.natix-host-form {
+    max-width: 80%;
+    width: 80%;
+}
+.navbar-brand {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.natix-host-cart li{
+    display: inline-block;
+    margin-right: 0px;
+    vertical-align: bottom;
+}
+.natix-host-cart {
+    display: inline-block;
+}
+.btn .badge {
+    top: -20px;
+    right: 0px;
+    border-radius: 100%;
+}
+.badge-info {
+    color: var(--global--color-black);
+    background: var(--global--color-white);
+    position: relative !important;
+    z-index: 5;
+}
+.logo-background .cart {
+    font-size: 17px;
+    color: var(--global--color-white);
+    padding-left: 11px;
+    line-height: 26px;
+}
+.dropdown-menu-right::before {
+    display: none;
+}
+.background-pink .dropdown-menu:before, .natix-host-collapse .dropdown-menu:before{
+    display: none;
+}
+.natix-host-dropdown-list .navbar-expand-xl .navbar-nav .dropdown-menu:before {
+    display: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 0rem;
+}
+header.header .main-navbar-wrapper .navbar-collapse {
+    padding: 0;
+}
+header.header .dropdown-item:active {
+    background-color: var(--global--color-white);
+}
+.navbar {
+    padding: .2rem 1rem;
+}
+.natix-host-collapse-last-child {
+     list-style-type: none;
+     margin-bottom: 0px;
+}
+.natix-host-cart .user-btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    position: relative;
+    z-index: 1;
+    overflow: visible;
+    background: var(--global--color-yellow);
+    margin-left: 5px;
+}
+.natix-host-cart .user-btn:hover{
+    background: transparent;
+    border: 1px solid var(--global--color-white);
+    transition: all 0.3s ease-in-out !important;
+    color: var(--global--color-white) !important;
+}
+.user-icon:hover .user-btn {
+    color: var(--global--color-white);
+}
+
+.natix-host-cart .user {
+    font-size: 17px;
+    padding-left: 12px;
+    line-height: 26px;
+}
+.natix-host-cart .options {
+    font-size: 36px;
+    line-height: 32px;
+}
+.natix-host-cart .options-btn {
+    width: 20px;
+    height: 44px;
+    position: relative;
+    z-index: 1;
+    overflow: visible;
+    background: transparent;
+    color: var(--global--color-white);
+    border: none;
+    text-align: right;
+    float: right;
+}
+.dropdown-divider {
+    border: none;
+    margin: 0px;
+}
+.natix-host-dropdown-list li a:hover, .natix-host-dropdown li a:hover {
+    text-decoration: none;
+}
+#natix-search-domain .clearfix {
+    top: -112px;
+    position: relative;
+    padding: 60px 90px !important;
+    background: var(--global--color-white);
+    border-radius: 20px;
+    box-shadow: 0 30px 30px rgba(30, 34, 47, 0.03);
+    margin: 0px;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+.domain-search-btn {
+    padding: 8px 21px;
+    background: var(--global--color-purple);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--global--color-white);
+    text-decoration: none;
+    border: none;
+    position: relative !important;
+    right: -5px;
+    line-height: 23px !important;
+}
+.domain-search-btn:hover {
+    text-decoration: none;
+    color: var(--global--color-white);
+    box-shadow: 0 10px 10px rgba(0,0,0,.1) !important;
+    background: var(--global--color-purple) !important;
+}
+.domain-transfer-btn {
+    padding: 8px 21px !important;
+    background: var(--global--color-pink) !important;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--global--color-white);
+    text-decoration: none;
+    border: none;
+    position: relative;
+    right: -2px;
+    line-height: 23px !important;
+}
+.domain-transfer-btn:hover {
+    text-decoration: none;
+    color: var(--global--color-white) !important;
+    box-shadow: 0 10px 10px rgba(0,0,0,.1) !important;
+    background: var(--global--color-pink) !important;
+}
+.home-domain-search .input-group-wrapper .btn {
+    border-radius: 50px !important;
+}
+.home-domain-search .input-group-wrapper {
+    border-radius: 100px;
+}
+.domain-search-btn:focus {
+    text-decoration: none;
+    color: var(--global--color-white);
+    background: var(--global--color-purple) !important;
+}
+ .domain-transfer-btn:focus {
+    text-decoration: none;
+    color: var(--global--color-white) !important;
+    background: var(--global--color-pink) !important;
+ }
+section#web-hosting-plan {
+    padding-top: 0px;
+    margin-top: -20px;
+}
+html {
+    scroll-behavior: smooth;
+}
+footer.footer {
+    padding: 0px !important;
+}
+footer.footer .btn {
+    background-color: #1E222F !important;
+}
+#natix-host-feature-section .btn-outline-primary {
+    padding: 16px 40px !important;
+    color: var(--global--color-white) !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    border-radius: 50px !important;
+    text-decoration: none !important;
+    transition: all 0.3s ease-in-out !important;
+    background: var(--global--color-purple) !important;
+    border-color: var(--global--color-white) !important;
+    display: inline-block !important;
+    width: auto !important;
+}
+.product-boxes {
+    box-shadow: 0 30px 30px rgba(24, 27, 34, 0.03);
+    border: none !important;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+.homepage-section {
+    padding: 100px 0 !important;
+    background: var(--global--color-pink);
+}
+.action-icon-btns a {
+    border-radius: 10px !important;
+    box-shadow: 0 30px 30px rgba(24, 27, 34, 0.03);
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+.action-icon-btns a:hover {
+    background: var(--global--color-darkblue);
+    transform: translateY(-5px);
+    box-shadow: 0 30px 30px 0 rgba(24,27,34,0.1);
+    cursor: pointer;
+    color: var(--global--color-white);
+}
+.action-icon-btns a:hover .ico-container { 
+    font-size: 2.6em;
+} 
+.action-icon-btns a:hover .ico-container i{ 
+    color: var(--global--color-yellow);
+} 
+.homepage-help-section {
+    padding: 100px 0px;
+    background: var(--global--color-lightpink);
+}
+.homepage-help-section h2 {
+    font-size: 36px !important;
+    line-height: 58px !important;
+    font-weight: 400 !important;
+}
+.card-accent-teal, .card-accent-pomegranate, .card-accent-sun-flower, .card-accent-asbestos, .card-accent-green, .card-accent-midnight-blue, .card-accent-midnight-blue, .card-accent-midnight-blue, .card-accent-midnight-blue, .card-accent-midnight-blue  {
+    border-top: none !important;
+}
+#body{
+    background: var(--global--color-white);
+}
+#main-body {
+    background: var(--global--color-light);
+    padding: 100px 0px 178px 0px !important;
+}
+#natix-host-contact-form .card {
+    border: none;
+    background-color: var(--global--color-white);
+    border-radius: 15px;
+    box-shadow: 0 30px 30px rgba(30, 34, 47, 0.03);
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    padding: 57px;
+}
+#natix-host-contact-form .col-form-label {
+    font-size: 16px;
+    color: var(--global--color-lightgrey);
+    padding: 18px 5px 18px 5px;
+}
+#natix-host-contact-form .form-control {
+    padding: 0px 0px 0px 34px;
+    height: 59px;
+    border-radius: 50px;
+    border: 1px solid #e8eaf1 !important;
+}
+#natix-host-contact-form h6 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+}
+#natix-host-contact-form p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--global--color-lightgrey);
+}
+#natix-host-contact-form textarea {
+    border-radius: 10px !important;
+    padding-top: 18px !important;
+    height: 139px !important;
+    width: 77%;
+}
+#natix-host-contact-form .btn-primary {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--global--color-white);
+    background: var(--global--color-pink);
+    border-radius: 50px;
+    border: none;
+    padding: 20px 61px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+#natix-host-contact-form .btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
+}
+#natix-host-contact-form .form-control:focus {
+    border: 1px solid #e8eaf1 !important;
+}
+/* .page-name-contact .natix-host-contact-section-inner, .page-name-announcements .natix-host-contact-section-inner, .page-name-products .natix-host-contact-section-inner, .page-name-domainregister .natix-host-contact-section-inner, .page-name-domaintransfer .natix-host-contact-section-inner, .page-name-knowledgebase .natix-host-contact-section-inner, .page-name-login .natix-host-contact-section-inner, .page-name-clientregister .natix-host-contact-section-inner, .page-name-password-reset-container .natix-host-contact-section-inner, .page-name-serverstatus .natix-host-contact-section-inner, .page-name-supportticketsubmit-steptwo .natix-host-contact-section-inner, .page-name-downloads .natix-host-contact-section-inner, .page-name-supportticketslist .natix-host-contact-section-inner {
+    position: absolute;
+    top: -78px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+} */
+/* .page-name-contact #natix-host-contact-section, .page-name-announcements #natix-host-contact-section, .page-name-products #natix-host-contact-section, .page-name-domainregister #natix-host-contact-section, .page-name-domaintransfer #natix-host-contact-section, .page-name-knowledgebase #natix-host-contact-section, .page-name-login #natix-host-contact-section, .page-name-clientregister #natix-host-contact-section, .page-name-password-reset-container #natix-host-contact-section, .page-name-serverstatus #natix-host-contact-section, .page-name-supportticketsubmit-steptwo #natix-host-contact-section, .page-name-downloads #natix-host-contact-section, .page-name-supportticketslist #natix-host-contact-section {
+   bottom: 0px;
+} */
+#natix-host-contact-section .natix-host-contact-section-inner {
+    position: absolute;
+    top: -78px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#natix-host-contact-section {
+    bottom: 0px;
+}
+#natix-host-review-section {
+    padding: 87px 0 170px 0;
+}
+.page-name-products #order-standard_cart { 
+    padding: 0px !important; 
+}
+#natix-host-login-form h6 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+}
+#natix-host-login-form p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--global--color-lightgrey);
+}
+#natix-host-login-form .card {
+    max-width: 768px;
+    border: none;
+    background-color: var(--global--color-white);
+    border-radius: 15px;
+    box-shadow: 0 30px 30px rgba(30, 34, 47, 0.03);
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+#natix-host-login-form .card-body {
+    padding: 57px !important;
+}
+#natix-host-login-form .card-footer {
+    padding: 20px 57px !important;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: var(--global--color-white);
+}
+#natix-host-login-form .input-group-text {
+    border-radius: 15px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    height: 60px !important;
+    background: var(--global--color-white);
+    padding: 20px;
+}
+#natix-host-login-form .form-control {
+    height: 60px !important;
+    border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+    border-color: #ced4da;
+    font-size: 14px;
+
+}
+#natix-host-login-form .pw-input {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+#natix-host-login-form .btn-reveal-pw {
+    border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+}
+#natix-host-login-form .btn-primary {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 14px 50px;
+    color: var(--global--color-white);
+    background: var(--global--color-pink);
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    border-color: var(--global--color-pink);
+}
+#natix-host-login-form .btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
+}
+#natix-host-login-form .btn-primary:focus {
+    border-color: var(--global--color-pink) !important;
+    background: var(--global--color-pink) !important;
+}
+#natix-host-login-form .remember-me {
+    font-size: 12px;
+    color: var(--global--color-lightgrey);
+}
+#natix-host-login-form .text-muted {
+    font-size: 12px;
+    color: var(--global--color-lightgrey) !important;
+}
+#natix-host-login-form .remember-me-text {
+    margin-top: -8px;
+}
+.list-group-item.active, .sidebar .list-group-item.active{
+    background-color: var(--global--color-pink);
+    border-color: var(--global--color-pink);
+}
+.sidebar .list-group-item.active:hover{
+    background-color: var(--global--color-pink);
+    border-color: var(--global--color-pink);
+}
+.btn-success {
+    color: var(--global--color-white);
+    background-color: var(--global--color-purple);
+    border-color: var(--global--color-purple);
+    border-radius: 50px;
+    padding: 6px 10px;
+    transition: all 0.3s ease-in-out !important;
+}
+.btn-success:hover {
+    color: var(--global--color-white);
+    background-color: var(--global--color-purple);
+    border-color: var(--global--color-purple);
+    box-shadow: 0 10px 10px rgba(0,0,0,.1) !important;
+    transform: translateY(-3px);
+}
+.btn-primary {
+    color: var(--global--color-white);
+    background-color: var(--global--color-purple);
+    border-color: var(--global--color-purple);
+}
+.btn-primary:hover {
+    color: var(--global--color-white);
+    background-color: var(--global--color-purple);
+    border-color: var(--global--color-purple);
+}
+.card-header {
+    background-color: var(--global--color-purple);
+    color: var(--global--color-white);
+}
+.announcements h1 {
+    font-size: 18px;
+}
+.page-name-sharedhosting li a i{
+    line-height: 40px;
+}
+.page-name-homepage .btn-success:hover {
+    transform: translateY(0px);
+}
+.page-name-announcements .announcements h1 a {
+    color: var(--global--color-black);
+}
+.page-name-announcements .announcements li {
+    color: var(--global--color-lightgrey);
+    font-size: 14px;
+}
+.page-name-announcements .announcements .announcement article {
+    background: var(--global--color-light);
+    border-left: 4px solid var(--global--color-lightpink) !important;
+    color: var(--global--color-lightgrey);
+    font-size: 14px;
+}
+.page-name-announcements .btn-default, .page-name-knowledgebasecat .btn-default, .page-name-error\/page-not-found .btn-info {
+    color: var(--global--color-white);
+    background-color: var(--global--color-pink);
+    border-color: var(--global--color-pink);
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out !important;
+}
+.page-name-announcements .btn-default:hover, .page-name-knowledgebasecat .btn-default:hover, .page-name-error\/page-not-found .btn-info:hover{
+    box-shadow: 0 10px 10px rgba(0,0,0,.1) !important;
+    transform: translateY(-3px);
+}
+.page-name-error\/page-not-found .btn-primary {
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out !important;
+}
+.page-name-error\/page-not-found .btn-primary:hover{
+    box-shadow: 0 10px 10px rgba(0,0,0,.1) !important;
+    transform: translateY(-3px);
+}
+.natix-cart ul {
+    list-style: none;
+    padding-left: 0px;
+}
+.natix-cart .plan li {
+    position: relative;
+    padding-left: 40px;
+}
+.natix-cart .plan li::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 7px;
+    /* background: url(../assets/images/hosting-disk-icon.png) no-repeat; */
+    height: 25px;
+    width: 25px; 
+}
+.natix-cart .plan li:nth-child(1)::before{
+    background: url(../assets/images/hosting-disk-icon.svg) no-repeat;
+}
+.natix-cart .plan li:nth-child(2)::before{
+    background: url(../assets/images/hosting-bandwidth-icon.svg) no-repeat;
+}
+.natix-cart .plan li:nth-child(3)::before{
+    background: url(../assets/images/hosting-email-icon.svg) no-repeat;
+}
+.natix-cart .plan li:nth-child(4)::before{
+    background: url(../assets/images/hosting-domain-icon.svg) no-repeat;
+}
+.natix-cart .plan li:nth-child(5)::before{
+    background: url(../assets/images/hosting-support-icon.png) no-repeat;
+}
+.page-name-about #main-body{
+    padding: 0px !important;
+    background: var(--global--color-white);
+}
+.page-name-about .about-sub-section {
+    background-image: url(../assets/images/about-us-banner-img.jpg);
+    background-position: 71% 0px;
+}
+.page-name-sharedhosting .shared-sub-section {
+    background-image: url(../assets/images/shared-bannner-img.jpg);
+    background-position: center 0px;
+}
+.page-name-sharedhosting #main-body{
+    padding-top: 0px !important;
+    background: var(--global--color-white);
+}
+.page-name-dedicatedserver .dedicated-sub-section {
+    background-image: url(../assets/images/dedicated-banner-img.jpg);
+    background-position: center 0px;
+}
+.page-name-dedicatedserver #main-body{
+    padding-top: 0px !important;
+    background: var(--global--color-white);
+}
+.page-name-dedicatedserver .dedicated-hosting-plan-section {
+    background-image: url(../assets/images/dedicated-hosting-plan-background.jpg);
+}
+.page-name-vpsserver .vps-sub-section {
+    background-image: url(../assets/images/vps-banner-img.jpg);
+    background-position: center 0px;
+}
+.page-name-vpsserver #main-body{
+    padding-top: 0px !important;
+    background: var(--global--color-white);
+}
+.page-name-vpsserver .vps-slider-section .select-form {
+    background-image: url(../assets/images/angle-down.png);
+}
+.page-name-domain .domain-sub-section {
+    background-image: url(../assets/images/domain-banner-img.jpg);
+    background-position: center 0px;
+}
+.page-name-domain #main-body{
+    padding-top: 0px !important;
+    background: var(--global--color-white);
+}
+.page-name-reseller .reseller-sub-section {
+    background-image: url(../assets/images/reseller-banner-img.jpg);
+    background-position: center 0px;
+}
+.page-name-reseller #main-body{
+    padding-top: 0px !important;
+    background: var(--global--color-white);
+}
+.page-name-contact-natix .contact-us-sub-section {
+    background-image: url(../assets/images/contact-us-banner-img.jpg);
+    background-position: center 0px;
+}
+#natix-data-section {
+    background-image: url(../assets/images/data-center-background.png);
+    padding: 99px 0;
+}
+.page-name-contact-natix #main-body{
+    padding: 0px !important;
+    background: var(--global--color-white);
+}
+#order-standard_cart .view-cart-items-header {
+    background-color: var(--global--color-purple) !important;
+}
+#order-standard_cart .order-summary h2 {
+    background: var(--global--color-pink);
+}
+.btn-success.disabled, .btn-success:disabled {
+    background: var(--global--color-purple) !important;
+    border-color: var(--global--color-purple) !important;
+}
+.btn-primary:focus {
+    color: var(--global--color-white) !important;
+    background-color: var(--global--color-purple) !important;
+    border-color: var(--global--color-purple) !important;
+    box-shadow: none !important;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: var(--global--color-white) !important;
+    background-color: var(--global--color-purple) !important;
+    border-color: var(--global--color-purple) !important;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+    color: var(--global--color-white) !important;
+    background-color: var(--global--color-purple) !important;
+    border-color: var(--global--color-purple) !important;
+}
+.btn-warning {
+    color: var(--global--color-white) !important;
+    background-color: var(--global--color-purple) !important;
+    border-color: var(--global--color-purple) !important;
+}
+.btn-warning:hover{
+    color: var(--global--color-white) !important;
+    background-color: var(--global--color-purple) !important;
+    border-color: var(--global--color-purple) !important;
+}
+.btn-warning:focus {
+    color: var(--global--color-white) !important;
+    background-color: var(--global--color-purple) !important;
+    border-color: var(--global--color-purple) !important;
+}
+.alert-info {
+    color: var(--global--color-white) !important;
+    background-color: var(--global--color-purple) !important;
+    border-color: var(--global--color-purple) !important;
+}
+.btn-info {
+    color: var(--global--color-white) !important;
+    background-color: var(--global--color-pink) !important;
+    border-color: var(--global--color-pink) !important;
+}
+.btn-info:hover {
+    color: var(--global--color-white) !important;
+    background-color: var(--global--color-pink) !important;
+    border-color: var(--global--color-pink) !important;
+}
+.logo-background .form-control:focus {
+    color: var(--global--color-white);
+    background-color: transparent !important;
+    border-color: #353944  !important;
+}   
+.btn.disabled, .btn:disabled {
+    opacity: 1 !important;
+}
+button:focus {
+    outline: none;
+}
+#natix-search-domain .clearfix:hover{
+    box-shadow: 0 30px 30px rgba(30, 34, 47, 0.1);
+    transform: translateY(-5px);
+}
+.background-pink .navbar-nav li:hover a{
+    filter: none;
+    opacity: 1;
+    color: rgba(253,218,104,0.6) !important;
+    transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.background-pink .navbar-nav li.dropdown:hover  ul.dropdown-menu li a { 
+    color: var(--global--color-blue) !important; 
+}
+.page-name-support .support-sub-section {
+    background-image: url(../assets/images/support-banner-img.jpg);
+    background-position: center 0px;
+}
+.page-name-support #main-body{
+    padding: 0px !important;
+    background: var(--global--color-white);
+}
+.page-name-datacenter .datacenter-sub-section {
+    background-image: url(../assets/images/datacenter-banner-img.jpg);
+    background-position: center 0px;
+}
+.page-name-datacenter #main-body{
+    padding-top: 0px !important;
+    background: var(--global--color-white);
+}
+.page-name-affiliate .affiliate-sub-section {
+    background-image: url(../assets/images/affiliate-banner-img.jpg);
+    background-position: center 0px;
+}
+.page-name-affiliate #main-body{
+    padding-top: 0px !important;
+    background: var(--global--color-white);
+}
+.page-name-ssl-certificate .ssl-cerificate-sub-section {
+    background-image: url(../assets/images/ssl-certificate-banner-img.jpg);
+    background-position: center 0px;
+}
+.page-name-ssl-certificate #main-body{
+    padding-top: 0px !important;
+    background: var(--global--color-white);
+}
+
+
+
+
+
+@media screen and (max-width: 1199px) {
+    .natix-host-dropdown { background: none; padding: 0px !important; border-radius: none; }
+    .navbar-nav > li:last-child { margin-left: 0px !important; }
+    .natix-host-dropdown-list li { padding: 7px 0px 7px 25px;}
+    header.header .main-navbar-wrapper .navbar-collapse { position: absolute; top: 76px; width: 100%; z-index: 30; background: var(--global--color-blue); left: 0; padding: 31px;}
+    header.header .search { border: none;}
+    header.header .search .btn, header.header .search .form-control { border: 1px solid #353944; z-index: 30; position: relative; outline: none; background: transparent; border-radius: 100px; color: var(--global--color-lightgrey);}
+    header.header .search .btn { display: none; }
+    .natix-host-form { max-width: 60%; width: 60%; }
+    .natix-host-cart .user-btn { margin-right: 5px;}
+    header.header .main-navbar-wrapper { padding: 0 !important; }
+    .natix-host-dropdown-list .dropdown-menu {  background: transparent; border: none; text-decoration: none;}
+    .natix-host-dropdown .dropdown-menu-right { background: transparent; border: none; text-decoration: none;}
+    .natix-host-dropdown-list .dropdown-menu li a { padding: 0px 0px 0px 20px !important; }
+    .natix-host-dropdown-list .dropdown-menu li a { background: var(--global--color-blue); color: var(--global--color-white) !important; padding: 0px 0px 0px 0px !important; font-size: 14px; line-height: 20px; text-decoration: none; font-weight: 300;}
+    .natix-host-dropdown .dropdown-menu-right li a { background: var(--global--color-blue); color: var(--global--color-white) !important; padding: 0px 0px 0px 0px !important; font-size: 14px; line-height: 20px; text-decoration: none; font-weight: 300;}
+    .natix-host-dropdown .dropdown-menu-right li {padding: 7px 0px 7px 20px; }
+    .dropdown-divider { display: none; }
+    header.header .navbar-nav a { text-decoration: none; }
+    .options-btn:focus { outline: none; }
+    header.header .search .btn, header.header .search .form-control { padding: 25px; margin-bottom: 10px;}
+    header.header .main-navbar-wrapper .navbar-collapse { padding-top: 0px;}
+    .natix-host-dropdown li { padding: 7px 0px 7px 25px; }
+    .homepage-section { padding: 100px 0 !important; }
+    #main-body { padding: 100px 0px 150px 0px !important; }
+    .background-pink .navbar-nav li.dropdown:hover  ul.dropdown-menu li a { color: var(--global--color-white) !important; }
+}
+
+
+@media screen and (max-width: 991px) {
+    .natix-host-collapse .navbar-collapse { right: 18px; top: 63px; width: 28%; z-index: 3;}
+    .natix-host-cart .btn { margin-right: 0px; float: right; margin-left: 5px;}
+    .natix-host-collapse-last-child { padding-left: 0px; list-style-type: none;}
+    .natix-host-cart { display: inline-block; }
+    .natix-host-cart li { width: 31%;}
+    .navbar-light .navbar-toggler-icon:first-child { margin-top: 0px;}
+    .natix-host-cart .user-btn { margin-right: 5px;}
+    .natix-host-dropdown-list .dropdown-menu { padding-left: 20px !important; }
+    .natix-host-dropdown-list .dropdown-menu li a { padding: 0px 0px 0px 20px !important; font-weight: 300;}
+    .dropdown-divider { display: none; }
+    .natix-host-cart .options-btn { width: 6px; }
+    .natix-host-dropdown .dropdown-menu-right li a { background: var(--global--color-blue); color: var(--global--color-white) !important; padding: 0px 0px 0px 0px !important; font-size: 14px; line-height: 20px; text-decoration: none; font-weight: 300;}
+    .natix-host-dropdown .dropdown-menu-right li {padding: 7px 0px 7px 40px; }
+    .natix-host-dropdown-list li, .natix-host-dropdown li { padding: 7px 0px 7px 0px;}
+    #natix-host-feature-section .btn-outline-primary { padding: 16px 30px !important; }
+    .homepage-section, .homepage-help-section, .homepage-account-section { padding: 70px 0 !important; }
+    #natix-host-contact-form .btn-primary { padding: 18px 40px; }
+    #main-body { padding: 70px 0px 150px 0px !important; }
+    #natix-host-review-section { padding: 70px 0 150px 0; }
+    .natix-cart .plan { float: left !important; width: 100% !important; }
+    .natix-cart .plan ul { width: 50%; float: left; margin-bottom: 0px;}
+    #natix-data-section { padding: 70px 0; }
+    .page-name-homepage #banner_slider .carousel-inner { padding: 20px 0 112px 0 !important; }
+    .page-name-homepage #banner_slider .carousel-indicators { bottom: 100px !important; }
+}    
+
+
+@media screen and (max-width: 767px) {
+    .natix-host-collapse .navbar-collapse { width: 35%; }
+    .natix-host-cart .user-btn { margin-right: 5px;}
+    .page-name-homepage .banner-section{ padding: 50px 0px 160px 0px;}
+    #natix-search-domain .clearfix { top: -95px; position: relative; padding: 30px 40px !important; }
+    .domain-search-btn, .domain-transfer-btn { font-size: 12px; padding: 6px 18px; }
+    .input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control, .input-group>.form-control-plaintext { font-size: 14px;}
+    .homepage-help-section h2 { font-size: 30px !important; line-height: 40px !important;}
+    .homepage-section, .homepage-help-section, .homepage-account-section { padding: 60px 0 !important; }
+    #natix-host-feature-section .btn-outline-primary { padding: 12px 20px !important; }
+    #natix-host-contact-form .card { padding: 30px; }
+    #natix-host-contact-form h6 { font-size: 30px; }
+    #natix-host-contact-form .btn-primary { padding: 16px 36px; }
+    #main-body { padding: 60px 0px 130px 0px !important; }
+    #natix-host-review-section { padding: 60px 0 130px 0; }
+    #natix-host-login-form h6 { font-size: 30px; line-height: 32px; }
+    #natix-host-login-form .btn-primary { font-size: 14px; padding: 12px 40px; }
+    .natix-cart .plan li { font-size: 16px;}
+    .natix-cart .plan ul { width: 60%; }
+    #order-standard_cart .font-size-36 { font-size: 30px; }
+    #natix-data-section { padding: 60px 0; }
+    .natix-host-dropdown-list .dropdown-menu li a { font-size: 13px !important; }
+    .natix-host-dropdown .dropdown-menu-right li a { font-size: 13px !important; }
+    section#web-hosting-plan { padding-top: 60px; }
+    #natix-search-domain .clearfix { top: 0px; }
+    .page-name-homepage #banner_slider .carousel-inner { padding: 0px 0 0px 0 !important; }
+    .page-name-homepage .banner-section {  padding: 50px 0px 50px 0px; }
+    .page-name-homepage #banner_slider .carousel-indicators { bottom: 0px !important; }
+}
+
+
+@media screen and (max-width: 576px) {
+    .natix-host-form { max-width: 0%; width: 0%; }
+    .natix-host-collapse .navbar-collapse { top: 55px; width: 45%; }
+    .natix-host-cart .user-btn { margin-right: 5px;}
+    header.header .navbar-nav a { font-size: 14px; }
+    .natix-host-dropdown-list .dropdown-menu li a { font-size: 12px; }
+    .natix-host-cart .user { padding-left: 11px; line-height: 0px; }
+    .natix-host-cart .user-btn { width: 38px; height: 38px; }
+    .natix-host-cart .btn { width: 38px; height: 38px; }
+    .logo-background .cart { padding-left: 0px; line-height: 0px; }
+    .btn .badge { top: -42px; right: -13px; }
+    .natix-host-cart li { width: 30%; }
+    header.header .main-navbar-wrapper .navbar-collapse { padding: 15px; }
+    .domain-transfer-btn {border-radius: 50px; font-size: 12px; padding: 6px 18px !important; background: var(--global--color-pink); font-weight: 700; color: var(--global--color-white); text-decoration: none; border: none; position: relative !important; right: 10px; line-height: 23px !important;}
+    .domain-search-btn {border-radius: 50px; font-size: 12px; padding: 6px 18px; background: var(--global--color-purple); font-weight: 700; color: var(--global--color-white); text-decoration: none; border: none; position: relative !important; right: -10px; line-height: 23px !important;}
+    #natix-search-domain .clearfix { padding: 20px 20px !important; }
+    .homepage-help-section h2 { font-size: 24px !important; line-height: 35px !important;}
+    #natix-host-contact-form .col-form-label { font-size: 14px; color: var(--global--color-lightgrey); padding: 10px 35px ; }
+    #natix-host-contact-form p { font-size: 14px; line-height: 18px; }
+    #natix-host-contact-form h6 { font-size: 26px; line-height: 30px;}
+    #natix-host-contact-form .form-control { height: 45px; }
+    #natix-host-contact-form textarea { height: 100px !important; }
+    #natix-host-contact-form .btn-primary { padding: 14px 30px; font-weight: 12px;}
+    #main-body { padding: 60px 0px 50px 0px !important; }
+    /* .page-name-contact .natix-host-contact-section-inner, .page-name-announcements .natix-host-contact-section-inner, .page-name-products .natix-host-contact-section-inner, .page-name-domainregister .natix-host-contact-section-inner, .page-name-domaintransfer .natix-host-contact-section-inner, .page-name-knowledgebase .natix-host-contact-section-inner, .page-name-login .natix-host-contact-section-inner, .page-name-clientregister .natix-host-contact-section-inner, .page-name-password-reset-container .natix-host-contact-section-inner, .page-name-serverstatus .natix-host-contact-section-inner, .page-name-supportticketsubmit-steptwo .natix-host-contact-section-inner, .page-name-downloads .natix-host-contact-section-inner, .page-name-supportticketslist .natix-host-contact-section-inner   { position: relative; top: 0px;} */
+    #natix-host-contact-section .natix-host-contact-section-inner { position: relative; top: 0px; }
+    #natix-host-review-section { padding-bottom: 30px;}
+    #natix-host-contact-section { padding-bottom: 40px; }
+    #natix-host-login-form .card-body { padding: 30px !important; }
+    #natix-host-login-form .btn-primary { font-size: 12px; padding: 10px 36px; }
+    #natix-host-login-form .remember-me { font-size: 12px; }
+    #natix-host-login-form .card-footer { padding: 20px 30px !important; }
+    #natix-host-login-form .input-group-text { padding: 20px 13px 20px 13px; height: 50px !important;}
+    #natix-host-login-form h6 { font-size: 26px; line-height: 28px; }
+    #natix-host-login-form .form-control { height: 50px !important; }
+    .natix-cart .plan ul { width: 100%;  margin-bottom: 10px;}
+    #order-standard_cart .font-size-36 { font-size: 26px; }
+    .accordion-section { padding-bottom: 0px;}
+    #natix-host-contact-form textarea { width: 100%; }
+    .page-name-sharedhosting .btn .badge { top: -31px; right: -14px; }
+    .page-name-sharedhosting .logo-background .cart { line-height: 17px; }
+    .page-name-sharedhosting .natix-host-cart .user { line-height: 17px; }
+    .page-name-sharedhosting li a i { line-height: 35px; }
+    .page-name-homepage .banner-section { padding-top: 20px !important; }
+    .page-name-about .about-us-banner-section, .page-name-sharedhosting .shared-banner-section, .page-name-dedicatedserver .dedicated-banner-section, .page-name-vpsserver .vps-banner-section, .page-name-domain .domain-banner-section, .page-name-reseller .reseller-banner-section, .page-name-contact-natix .contact-us-banner-section, .page-name-support .support-banner-section, .page-name-datacenter .datacenter-banner-section, .page-name-affiliate .affiliate-banner-section, .page-name-ssl-certificate .ssl-cerificate-banner-section { padding-top: 20px !important; } 
+    #order-standard_cart .font-size-36 { font-size: 26px; }
+}

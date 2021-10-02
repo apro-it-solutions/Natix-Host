@@ -1,0 +1,7 @@
+name: "Natix-Host"
+description: "Designingmedia"
+author: "Akdesigner"
+config:
+  parent: twenty-one
+properties:
+  serverSidePagination: false # Defines client side will handle pagination
