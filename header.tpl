@@ -170,7 +170,7 @@
         </div>
     </div>
     *}
-    
+
     </header>
 
 
@@ -208,7 +208,7 @@
     {/if}
 
     {if $templatefile == 'homepage'}
-    {include file="$template/templates/global-data-center.tpl"}
+    
     {/if}
 
     {if $templatefile == 'homepage'}
