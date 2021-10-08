@@ -15,9 +15,9 @@
                 <div class="footer-logo-setting col-lg-4 col-md-6 col-sm-6">
                     <div class="footer-logo">
                         <figure class="footer-image">
-                        <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/assets/images/footer-logo.svg" alt="">
+                        <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/assets/images/logo.svg" alt="">
                     </figure>
-                        <small>Copyright 2021 NatixHost.com <br>
+                        <small>Copyright 2021 Apro Hosting <br>
                             All Rights Reserved.</small>
                         <ul class="footer-list list-unstyled">
                             <li class="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
