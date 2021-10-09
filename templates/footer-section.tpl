@@ -55,7 +55,7 @@
                         <ul class="contact-list list-unstyled">
                             <li><a href="contact.php">Contact Us</a></li>
                             <li><a href="#">Submit Ticket</a></li>
-                            <li><a href="#">Terms &amp; Conditions</a></li>
+                            <li><a href="https://aprohosting.com/terms-and-conditions.html">Terms &amp; Conditions</a></li>
                             <li><a href="https://aprohosting.com/privacy-policy.html">Privacy Policy</a></li>
                         </ul>
                     </div> 
