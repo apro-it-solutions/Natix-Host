@@ -42,7 +42,7 @@
                     <div class="footer-company">
                         <h5>Company</h5>
                         <ul class="company-list list-unstyled">
-                            <li><a href="#">About Us
+                            <li><a href="https://aprohosting.com/about-us.html">About Us
                             </a></li><li><a href="#">Testimonials</a></li>
                             <li><a href="#">Blog</a></li>
                             <li><a href="#">FAQ</a></li>
