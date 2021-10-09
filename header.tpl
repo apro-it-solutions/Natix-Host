@@ -110,7 +110,7 @@
     </header>
     <div class="logo-background pt-xl-4 pb-xl-4 pt-3 pb-3">
         <div class="container">
-            <a class="navbar-brand" href="https://www.designingmedia.com/html/Natix-Host/home.html">
+            <a class="navbar-brand" href="/index.php">
                 <figure class="navbar-logo">
                     <img class="img-fluid" src="{$WEB_ROOT}/templates/{$template}/assets/images/logo.svg" alt="">
                 </figure>
