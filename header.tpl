@@ -4,7 +4,7 @@
 <head>
     <meta charset="{$charset}" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{if $kbarticle.title}{$kbarticle.title} - {/if}{$pagetitle} - NatixHost</title>
+    <title>{if $kbarticle.title}{$kbarticle.title} - {/if}{$pagetitle} - Apro Hosting</title>
     {include file="$template/includes/head.tpl"}
     {$headoutput}
 </head>
