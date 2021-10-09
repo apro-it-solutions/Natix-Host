@@ -128,8 +128,11 @@
                     <li class="nav-item ml-auto cart-icon">
                         <a class="btn nav-link cart-btn " href="cart.php?a=view">
                             <i class="cart far fa-shopping-cart fa-fw"></i>
+                            {if $cartitems == 0}
                             <span class="badge badge-info">{$cartitems}</span>
+                            {else}
                             <span class="sr-only">Shopping Cart</span>
+                            {/if}
                         </a>
                     </li>
                     <li class="nav-item ml-auto user-icon">
