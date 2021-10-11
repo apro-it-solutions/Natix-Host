@@ -129,7 +129,7 @@
                         <a class="btn nav-link cart-btn " href="cart.php?a=view">
                             <i class="cart far fa-shopping-cart fa-fw"></i>
                             
-                            <span class="badge badge-info">{$cartitems}</span>
+                            <span class="badge badge-info">{$cartItems}</span>
                             <span class="sr-only">Shopping Cart</span>
                            
 

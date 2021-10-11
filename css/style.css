@@ -777,7 +777,9 @@ button:focus {
 .logo-background .cart {
     padding-left: 0px;
 }
-
+.page-name-viewcart .logo-background .cart {
+    padding-left: 11px;
+}
 
 @media screen and (max-width: 1199px) {
     .natix-host-dropdown { background: none; padding: 0px !important; border-radius: none; }
