@@ -95,7 +95,7 @@
                                 </button>
                             </div>
                             <input class="form-control prepended-form-control" type="text" name="search"
-                                placeholder="{lang key=" searchOurKnowledgebase"}...">
+                                placeholder="{lang key=" Search Our Knowledgebase"}...">
                         </div>
                     </form>
                     <ul id="nav" class="navbar-nav mr-auto natix-host-dropdown-list">
