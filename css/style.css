@@ -769,8 +769,14 @@ button:focus {
     background: var(--global--color-white);
 }
 
+.background-pink .navbar-nav li:hover a {
+    color: rgb(0 0 0) !important;
+    font-weight: 500;
+}
 
-
+.logo-background .cart {
+    padding-left: 0px;
+}
 
 
 @media screen and (max-width: 1199px) {
