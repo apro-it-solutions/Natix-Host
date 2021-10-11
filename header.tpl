@@ -87,7 +87,7 @@
         <div class="navbar navbar-expand-xl main-navbar-wrapper pt-2 pb-2 background-pink">
             <div class="container">
                 <div class="collapse navbar-collapse" id="mainNavbar">
-                    <form method="post" action="{routePath('knowledgebase-search')}" class="d-xl-none">
+                    <form method="post" action="{routePath('Knowledgebase-search')}" class="d-xl-none">
                         <div class="input-group search w-100 mb-2">
                             <div class="input-group-prepend">
                                 <button class="btn btn-default" type="submit">
@@ -95,7 +95,7 @@
                                 </button>
                             </div>
                             <input class="form-control prepended-form-control" type="text" name="search"
-                                placeholder="{lang key=" Search Our Knowledgebase"}...">
+                                placeholder="{lang key=" Search Our Knowledge base"}...">
                         </div>
                     </form>
                     <ul id="nav" class="navbar-nav mr-auto natix-host-dropdown-list">
@@ -117,11 +117,11 @@
             </a>
             <div class="ml-auto d-flex">
                 <form class="d-xl-flex ml-auto natix-host-form mb-0" method="post"
-                    action="{routePath('knowledgebase-search')}">
+                    action="{routePath('Knowledgebase-search')}">
                     <div class="input-group search d-none d-xl-flex text-right float-right ml-auto">
                         <input
                             class="form-control appended-form-control natix-host-form-control ml-auto font-weight-light"
-                            type="text" name="search" placeholder="{lang key=" Search Our Knowledgebase"}...">
+                            type="text" name="search" placeholder="{lang key=" Search Our Knowledge base"}...">
                     </div>
                 </form>
                 <ul class="navbar-nav toolbar natix-host-cart ml-auto float-xl-left list-item list-inline-item">
