@@ -121,7 +121,7 @@
                     <div class="input-group search d-none d-xl-flex text-right float-right ml-auto">
                         <input
                             class="form-control appended-form-control natix-host-form-control ml-auto font-weight-light"
-                            type="text" name="search" placeholder="{lang key=" searchOurKnowledgebase"}...">
+                            type="text" name="search" placeholder="{lang key=" Search Our Knowledgebase"}...">
                     </div>
                 </form>
                 <ul class="navbar-nav toolbar natix-host-cart ml-auto float-xl-left list-item list-inline-item">
